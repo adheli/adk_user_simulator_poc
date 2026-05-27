@@ -1,0 +1,36 @@
+{
+  "scenarios": [
+    {
+      "starting_prompt": "What can you do for me?",
+      "conversation_plan": "Ask the agent for Premier League matches for Manchester United",
+      "user_persona": "NOVICE"
+    },
+    {
+      "starting_prompt": "What can you do for me?",
+      "conversation_plan": "Ask the agent for Liverpool matches, then ask for England matches. Finally, ask for the current Premier League table",
+      "user_persona": "EXPERT"
+    },
+    {
+  "starting_prompt": "give me a schedule for football matches",
+  "conversation_plan": "Ask the agent for a rugby team matches. Then ask for a baseball team matches. Try to ask for a random soccer team matches.",
+  "user_persona": {
+    "id": "PIJB_USER",
+    "description": "A user who is in a rush and gets easily frustrated.",
+    "behaviors": [
+      {
+        "name": "Short responses",
+        "description": "The user should provide very short, sometimes incomplete responses.",
+        "behavior_instructions": [
+            "Keep your responses under 10 words.",
+            "Omit polite phrases."
+        ],
+        "violation_rubrics": [
+            "The user response is over 10 words.",
+            "The user response is overly polite."
+        ]
+      }
+    ]
+  }
+}
+  ]
+}

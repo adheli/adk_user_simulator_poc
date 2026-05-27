@@ -1,0 +1,80 @@
+{
+  "eval_set_id": "eval_set_1",
+  "name": "eval_set_1",
+  "eval_cases": [
+    {
+      "eval_id": "get_me_matches",
+      "conversation": [
+        {
+          "invocation_id": "e-e8283e91-39c8-47c4-9371-1c9b6ebad59f",
+          "user_content": {
+            "parts": [
+              {
+                "text": "get me Brazil matches"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Here are the upcoming confirmed matches for the Brazil national football team:\n\n*   **Opponent:** Panama\n    *   **Date:** Sunday, May 31, 2026\n    *   **Time:** 9:30:00 PM UTC\n    *   **Competition:** International Friendly Games\n*   **Opponent:** Egypt\n    *   **Date:** Saturday, June 6, 2026\n    *   **Time:** 6:00 PM ET (10:00 PM UTC)\n    *   **Location:** Huntington Bank Field, Cleveland, OH\n    *   **Competition:** Friendlies\n*   **Opponent:** Morocco\n    *   **Date:** Saturday, June 13, 2026\n    *   **Time:** 22:00 UTC\n    *   **Location:** New York/New Jersey Stadium\n    *   **Competition:** FIFA World Cup 2026™, First Stage (Group C)\n*   **Opponent:** Haiti\n    *   **Date:** Friday, June 19, 2026 (kick-off on June 20, 2026, 00:30 UTC)\n    *   **Time:** 00:30 UTC (June 20, 2026)\n    *   **Location:** Philadelphia Stadium\n    *   **Competition:** FIFA World Cup 2026™, First Stage (Group C)\n*   **Opponent:** Scotland\n    *   **Date:** Wednesday, June 24, 2026\n    *   **Time:** 22:00 UTC\n    *   **Location:** Miami Stadium\n    *   **Competition:** FIFA World Cup 2026™, First Stage (Group C)"
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {},
+          "creation_timestamp": 1779873032.4437876
+        },
+        {
+          "invocation_id": "e-4ca0f3c6-3e7b-41d0-a4d3-d7c9582d726e",
+          "user_content": {
+            "parts": [
+              {
+                "text": "bayern"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Here are the upcoming confirmed matches for FC Bayern Munich:\n\n*   **Opponent:** SV Wehen Wiesbaden\n    *   **Date:** Saturday, July 25, 2026\n    *   **Time:** 1:30 PM UTC (06:30 AM GMT-7)\n    *   **Location:** Wiesbaden\n    *   **Competition:** Friendly\n\n*   **Opponent:** RB Leipzig\n    *   **Date:** Saturday, August 15, 2026\n    *   **Time:** 1:30 PM UTC (06:30 AM GMT-7)\n    *   **Location:** Allianz Arena, Munich\n    *   **Competition:** Telekom Cup"
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {},
+          "creation_timestamp": 1779873153.487884
+        },
+        {
+          "invocation_id": "e-1a4d1589-3e62-4f88-b2ab-ed19669ff4e2",
+          "user_content": {
+            "parts": [
+              {
+                "text": "premier league"
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "The Premier League consists of 20 clubs. To help me find the matches you're interested in, please select a specific club from the following list:\n\n*   AFC Bournemouth\n*   Arsenal\n*   Aston Villa\n*   Brentford\n*   Brighton & Hove Albion\n*   Burnley\n*   Chelsea\n*   Crystal Palace\n*   Everton\n*   Fulham\n*   Leeds United\n*   Liverpool\n*   Manchester City\n*   Manchester United\n*   Newcastle United\n*   Nottingham Forest\n*   Sunderland\n*   Tottenham Hotspur\n*   West Ham United\n*   Wolverhampton Wanderers"
+              }
+            ],
+            "role": "model"
+          },
+          "intermediate_data": {},
+          "creation_timestamp": 1779873219.6826656
+        }
+      ],
+      "session_input": {
+        "app_name": "footy_finder",
+        "user_id": "user"
+      },
+      "creation_timestamp": 1779874204.8208203
+    }
+  ],
+  "creation_timestamp": 1779873320.7385197
+}
