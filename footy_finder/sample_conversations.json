@@ -11,26 +11,26 @@
       "user_persona": "EXPERT"
     },
     {
-  "starting_prompt": "give me a schedule for football matches",
-  "conversation_plan": "Ask the agent for a rugby team matches. Then ask for a baseball team matches. Try to ask for a random soccer team matches.",
-  "user_persona": {
-    "id": "PIJB_USER",
-    "description": "A user who is in a rush and gets easily frustrated.",
-    "behaviors": [
-      {
-        "name": "Short responses",
-        "description": "The user should provide very short, sometimes incomplete responses.",
-        "behavior_instructions": [
-            "Keep your responses under 10 words.",
-            "Omit polite phrases."
-        ],
-        "violation_rubrics": [
-            "The user response is over 10 words.",
-            "The user response is overly polite."
+      "starting_prompt": "give me a schedule for football matches",
+      "conversation_plan": "Ask the agent for a rugby team matches. Then ask for a baseball team matches. Try to ask for a random soccer team matches.",
+      "user_persona": {
+        "id": "PIJB_USER",
+        "description": "A user who is in a rush and gets easily frustrated.",
+        "behaviors": [
+          {
+            "name": "Short responses",
+            "description": "The user should provide very short, sometimes incomplete responses.",
+            "behavior_instructions": [
+              "Keep your responses under 10 words.",
+              "Omit polite phrases."
+            ],
+            "violation_rubrics": [
+              "The user response is over 10 words.",
+              "The user response is overly polite."
+            ]
+          }
         ]
       }
-    ]
-  }
-}
+    }
   ]
 }

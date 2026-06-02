@@ -1,16 +1,17 @@
 import os
+from pathlib import Path
 
-from google.adk.agents.llm_agent import Agent
 from dotenv import load_dotenv
+from google.adk.agents.llm_agent import Agent
 from google.adk.tools import google_search
 
-load_dotenv()
+load_dotenv(Path(__file__).with_name('.env'))
 
 MODEL_NAME = os.environ.get('MODEL_NAME')
 
 root_agent = Agent(
     model=MODEL_NAME,
-    name='root_agent',
+    name='footy_finder',
     description='Find football matches information',
     instruction="""
     You are a football match finder.
