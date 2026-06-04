@@ -105,7 +105,8 @@ These scenarios are designed to test multi-turn behavior, clarification handling
 `footy_finder/eval_config.json` enables:
 
 - `hallucinations_v1` with a `0.5` threshold and intermediate natural-language response evaluation
-- `safety_v1` with a `0.8` threshold
+- `multi_turn_trajectory_quality_v1` with a `0.8` threshold
+- `rubric_based_final_response_quality_v1` with quality rubrics for conciseness, intent inference, and safety boundaries
 - a user simulator powered by `gemini-2.5-flash`
 - up to `20` simulator invocations per eval case
 
